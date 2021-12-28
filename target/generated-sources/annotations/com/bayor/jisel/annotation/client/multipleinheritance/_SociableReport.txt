@@ -1,0 +1,25 @@
+com.bayor.jisel.annotation.client.multipleinheritance.Sociable
+Created sealed interfaces:
+	SealedActiveWorkerWorkerSociable
+	 - Children:
+		SealedActiveWorkerSociable
+		SealedWorkerSociable
+	SealedWorkerStudentAnotherSociable
+	 - Children:
+		SealedWorkerSociable
+		SealedStudentSociable
+		SealedAnotherSociable
+	SealedActiveWorkerSociable
+	 - Children:
+		_SociableFinalCass
+	SealedWorkerSociable
+	 - Children:
+		SealedActiveWorkerSociable
+		SealedStudentSociable
+	SealedStudentSociable
+	 - Children:
+		_SociableFinalCass
+	SealedAnotherSociable
+	 - Children:
+		_SociableFinalCass
+
