@@ -25,4 +25,4 @@
 #### Generated Sealed Interfaces folder: https://github.com/mohamed-ashraf-bayor/jisel-annotation-client/tree/master/target/generated-sources/annotations/com/bayor/jisel/annotation/client/unsealanddetach
 
 ### Integration with Spring Framework / Spring Boot
-[https://github.com/mohamed-ashraf-bayor/jisel-integration-with-spring](https://github.com/mohamed-ashraf-bayor/jisel-integration-with-spring)
+[<b>https://github.com/mohamed-ashraf-bayor/jisel-integration-with-spring</b>](https://github.com/mohamed-ashraf-bayor/jisel-integration-with-spring)
