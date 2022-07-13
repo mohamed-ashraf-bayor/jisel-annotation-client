@@ -1,5 +1,6 @@
 com.bayor.jisel.annotation.client.multilevel.Drivable
-Created sealed interfaces:
+
+Generated Sealed Interfaces:
 	SealedModernVehicleDrivable
 	 - Children:
 		SealedSmartVehicleDrivable
@@ -14,4 +15,5 @@ Created sealed interfaces:
 	SealedFuturisticVehicleDrivable
 	 - Children:
 		_DrivableFinalCass
+
 

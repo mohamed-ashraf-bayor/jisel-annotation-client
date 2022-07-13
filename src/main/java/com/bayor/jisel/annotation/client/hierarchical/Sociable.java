@@ -3,6 +3,7 @@ package com.bayor.jisel.annotation.client.hierarchical;
 import org.jisel.annotations.SealFor;
 import org.jisel.annotations.TopLevel;
 
+import java.io.Serial;
 import java.util.List;
 
 public interface Sociable {
@@ -20,12 +21,17 @@ public interface Sociable {
     @SealFor(STUDENT)
     void askForHelpWhenNeeded();
 
+    // adding annotations for testing...
+
     @SealFor({WORKER, ACTIVE_WORKER})
-    boolean[] joinOfficeSocialGroups(String[] groups, int maximum);
+    boolean[] joinOfficeSocialGroups(@SuppressWarnings("unused") String[] groups, @SuppressWarnings("unchecked") int maximum);
 
     @SealFor(ACTIVE_WORKER)
-    void leadOfficeSocialGroup(String groupName);
+    @Deprecated
+    void leadOfficeSocialGroup(@SuppressWarnings({"unchecked", "deprecation", "unused"}) String groupName);
 
     @SealFor(ACTIVE_WORKER)
+    @Serial
+    @Deprecated
     double createNewOfficeSocialGroup(String groupName, List<String> starters) throws ArithmeticException;
 }

@@ -1,0 +1,38 @@
+com.bayor.jisel.annotation.client.unsealanddetach.Sociable
+
+Generated Sealed Interfaces:
+	SealedActiveWorkerSociable
+	 - Children:
+		_SociableFinalCass
+	SealedWorkerSociable
+	 - Children:
+		SealedActiveWorkerSociable
+	SealedStudentSociable
+	 - Children:
+		_SociableFinalCass
+	SealedSociable
+	 - Children:
+		SealedWorkerSociable
+		SealedStudentSociable
+
+Generated Unsealed Interfaces:
+	ActiveWorkerSociable
+	WorkerSociable
+	 - Children:
+		ActiveWorkerSociable
+	StudentSociable
+	Sociable
+	 - Children:
+		WorkerSociable
+		StudentSociable
+
+Generated Detached Interfaces:
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.DeprecatedStudent
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.all.ActiveWorker
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.all.Worker
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.all.Student
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.all.Sociable
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.Sociable
+	com.bayor.jisel.annotation.client.unsealanddetach.detached.ActiveWorkerWith2SuperInterfaces
+
+

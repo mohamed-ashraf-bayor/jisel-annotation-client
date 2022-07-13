@@ -1,5 +1,6 @@
 com.bayor.jisel.annotation.client.hierarchical.Sociable
-Created sealed interfaces:
+
+Generated Sealed Interfaces:
 	SealedActiveWorkerSociable
 	 - Children:
 		_SociableFinalCass
@@ -14,4 +15,5 @@ Created sealed interfaces:
 	 - Children:
 		SealedWorkerSociable
 		SealedStudentSociable
+
 

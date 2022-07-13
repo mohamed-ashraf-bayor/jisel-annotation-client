@@ -1,13 +1,14 @@
 com.bayor.jisel.annotation.client.singlelevelandhierarchical.Processor
-Created sealed interfaces:
+
+Generated Sealed Interfaces:
 	SealedLetterProcessor
 	 - Children:
 		SealedConsonantProcessor
 		SealedVowelProcessor
-	SealedDigitProcessor
+	SealedConsonantProcessor
 	 - Children:
 		_ProcessorFinalCass
-	SealedConsonantProcessor
+	SealedDigitProcessor
 	 - Children:
 		_ProcessorFinalCass
 	SealedProcessor
@@ -20,4 +21,5 @@ Created sealed interfaces:
 	SealedVowelProcessor
 	 - Children:
 		_ProcessorFinalCass
+
 

@@ -3,6 +3,15 @@ package com.bayor.jisel.annotation.client.multilevel;
 import org.jisel.annotations.SealFor;
 import org.jisel.annotations.TopLevel;
 
+import javax.annotation.processing.SupportedAnnotationTypes;
+import javax.annotation.processing.SupportedOptions;
+
+// testing multiple annotations on large interface
+
+@SuppressWarnings({"unchecked", "deprecation", "unused", "testing", "anotherTestValue"})
+@Deprecated
+@SupportedOptions("")
+@SupportedAnnotationTypes("type1")
 public interface Drivable {
 
     String MODERN_VEHICLE = "ModernVehicle";

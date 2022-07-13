@@ -2,14 +2,14 @@ package com.bayor.jisel.annotation.client.singlelevelandhierarchical;
 
 @javax.annotation.processing.Generated(
   value = "org.jisel.JiselAnnotationProcessor",
-  date = "2022-02-11T18:42:41.8443751-05:00",
-  comments = "version: 1.1"
+  date = "2022-07-12T20:15:35.8856003-04:00",
+  comments = "version: 1.2"
 )
 public final class _ProcessorFinalCass implements SealedConsonantProcessor, SealedDigitProcessor, SealedVowelProcessor {
- 	public void processObject(java.lang.Object param0) {return;}
-	public void processConsonant(char param0) {return;}
-	public void processDigit(int param0) {return;}
-	public void processLetter(char param0) {return;}
-	public void processCharacter(char param0) {return;}
-	public void processVowel(char param0) {return;}
+ 	public void processObject(java.lang.Object object) {return;}
+	public void processDigit(int digit) {return;}
+	public void processLetter(char letter) {return;}
+	public void processConsonant(char consonant) {return;}
+	public void processCharacter(char character) {return;}
+	public void processVowel(char vowel) {return;}
 }
